@@ -1963,9 +1963,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   opacity: 1;
   visibility: visible;
 }
-  .sidebar1 {
-    display: none;
-  }
+
   .sidebar1 {
     width: auto;
     margin-inline: auto;
