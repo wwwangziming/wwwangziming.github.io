@@ -2077,7 +2077,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin: 0;
   }
 
-  /**
+
+ /**
    * SIDEBAR
    */
 
@@ -2085,13 +2086,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     position: sticky;
     top: 60px;
     max-height: max-content;
-    /* height: 100%; */
+    height: 100%;
     margin-bottom: 0;
-    padding-top: 30px;
+    padding-top: 60px;
     z-index: 1;
   }
 
-  .sidebar1 {
+    .sidebar1 {
     position: fixed;
     width: 276.43px;
     top: 520px;
@@ -2111,8 +2112,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto;margin-bottom: 5px;}
-  /* margin: auto; */
+
+
+  .info-content .title { margin: auto; }
 
   .info_more-btn { display: none; }
 
@@ -2124,9 +2126,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
-    white-space: nowrap;
+    white-space: normal; /*自动换行*/
     overflow: hidden;
     text-overflow: ellipsis;
+    word-break: break-all;
   }
 
   .contact-info :is(.contact-link, time, address) {
@@ -2146,7 +2149,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
 	 * RESUME
 	 */
-
   .timeline-text { max-width: 700px; }
 
 }
