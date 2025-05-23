@@ -2092,16 +2092,17 @@ textarea.form-input::-webkit-resizer { display: none; }
     z-index: 1;
   }
 
-    .sidebar1 {
-    position: fixed;
-    width: 276.43px;
-    top: 520px;
-    max-height: max-content;
-    /* height: 100%; */
-    margin-bottom: 0;
-    padding-top: 20px;
-    z-index: 1;
-  }
+   .sidebar1 {
+  position: static;
+  width: 100%;
+  max-width: 350px;
+  margin: 0;
+  top: auto;
+  left: auto;
+  right: auto;
+  padding-top: 0;
+  /* 其余样式保持你的卡片风格 */
+}
 
   .sidebar-info { flex-direction: column; }
 
