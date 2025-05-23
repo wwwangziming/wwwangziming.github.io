@@ -1664,7 +1664,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* portfolio and blog grid */
 
-  .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .project-list, .blog-posts-list { grid-template-columns: 1fr; }
 
 
 
@@ -1672,7 +1672,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * CONTACT
    */
 
-  .input-wrapper { grid-template-columns: 1fr 1fr; }
+  .input-wrapper { grid-template-columns: 1fr; }
 
   .form-btn {
     width: max-content;
