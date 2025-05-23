@@ -1921,24 +1921,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-.sidebar-stack {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 居中对齐，可选 */
-  gap: 18px;           /* 两个卡片间距，可调整 */
-}
-@media (min-width: 1250px) {
-  .sidebar, .sidebar1 {
-    position: static;
-    top: auto;
-    margin-bottom: 0;
-    width: 276.43px;
-    /* 其余样式保持 */
-  }
   .sidebar1 {
-    max-height: 340px;
-    overflow-y: auto;
+    position: fixed;
+    width: 276.43px;
+    top: 520px;
+    max-height: max-content;
+    /* height: 100%; */
+    margin-bottom: 0;
+    padding-top: 20px;
+    z-index: 1;
   }
-}
 
 }
