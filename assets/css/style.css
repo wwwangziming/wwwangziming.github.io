@@ -1921,76 +1921,24 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-.sidebar1{
-  position: fixed;
+.sidebar, .sidebar1 {
+  position: sticky;
+  top: 60px;
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
-  overflow-y: auto;
+  width: 276.43px;
+  margin-bottom: 15px;
+  max-height: max-content;
+  overflow-y: visible;
 }
 .sidebar1 {
-  margin-bottom: 15px;
-  max-height: 112px;
-  overflow-y: scroll;
-  transition: var(--transition-2);
-  height:340px;
+  max-height: 340px;
+  overflow-y: auto;
 }
-
-.sidebar1::-webkit-scrollbar {
-  width: 2px;
-  border-radius: 25px;
-  /* width of the entire scrollbar */
-}
-
-.sidebar1::-webkit-scrollbar-track {
-  background: hsl(240, 2%, 12%);
-  border-radius: 25px;
-  /* color of the tracking area */
-}
-
-.sidebar1::-webkit-scrollbar-thumb {
-  background-color: hsl(240, 2%, 12%);
-  /* color of the scroll thumb */
-  border-radius: 95px;
-  /* roundness of the scroll thumb */
-}
-.sidebar1.active { max-height: 405px; }
-
-.sidebar1.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-  .sidebar1 {
-    width: auto;
-    margin-inline: auto;
-    padding: 30px;
-  }
-   .sidebar1 {
-    max-height: 180px;
-    margin-bottom: 30px;
-  }
-    .sidebar1.active { max-height: 584px; }
-@media (max-width: 1050px) {
-  .sidebar1{
-    display: none;
-  }
-}
-  .sidebar1 { width: auto; }
-
-    .sidebar1 {
-    position: fixed;
-    width: 276.43px;
-    top: 520px;
-    max-height: max-content;
-    /* height: 100%; */
-    margin-bottom: 0;
-    padding-top: 20px;
-    z-index: 1;
-  }
 
 
 }
