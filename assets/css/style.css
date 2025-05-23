@@ -1854,10 +1854,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-
 @media (max-width: 1050px) {
   .sidebar1{
-    display: none;
+    display: block;
   }
 }
 
