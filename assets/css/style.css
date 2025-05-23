@@ -1950,5 +1950,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-bottom: 0.3em;
 }
 
+.project-list {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 30px !important;
+}
 
 }
