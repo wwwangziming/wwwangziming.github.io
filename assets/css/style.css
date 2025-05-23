@@ -1921,9 +1921,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  display: block;
   padding: 0;
   list-style: none;
 }
@@ -1932,11 +1930,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   background: #232323;
   border-radius: 12px;
   padding: 16px 20px;
-  margin: 0;
-  min-width: 320px;
-  max-width: 400px;
-  flex: 1 1 320px;
+  margin: 0 0 24px 0;
+  min-width: 0;
+  max-width: 100%;
   box-sizing: border-box;
+  display: block;
 }
 
 .project-title {
