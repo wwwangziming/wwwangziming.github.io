@@ -1875,6 +1875,17 @@ textarea.form-input::-webkit-resizer { display: none; }
     z-index: 1;
   }
 
+    .sidebar1 {
+    position: fixed;
+    width: 276.43px;
+    top: 520px;
+    max-height: max-content;
+    /* height: 100%; */
+    margin-bottom: 0;
+    padding-top: 20px;
+    z-index: 1;
+  }
+
   .sidebar-info { flex-direction: column; }
 
   .avatar-box img { width: 150px; }
