@@ -326,19 +326,74 @@ main {
 }
 
 
+/* 侧边栏容器，保证上下排列且位置固定 */
+.sidebar-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky; 
+  top: 60px;
+  width: 350px;      /* 保证宽度和 .sidebar/.sidebar1 一致 */
+  z-index: 10;
+}
 
+/* 侧边栏主卡片（名片） */
+/* 如需调整高度，改 height: 这里的值 */
+.sidebar {
+  height: 600px;
+  margin-bottom: 18px;
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  box-shadow: var(--shadow-1);
+  color: #fff;
+  font-size: 15px;
+  width: 350px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/* News 卡片 */
+/* 如需调整高度，改 height: 这里的值 */
+.sidebar1 {
+  height: 300px;
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  box-shadow: var(--shadow-1);
+  color: #fff;
+  font-size: 15px;
+  width: 300px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 0;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 隐藏 News 区域的滚动条 */
+.sidebar1::-webkit-scrollbar { width: 0; background: transparent; }
+.sidebar1 { scrollbar-width: none; }
+.sidebar1::-webkit-scrollbar-thumb { background: transparent; }
 
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
 
-.sidebar {
+/* .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
-}
+} */
 
 .sidebar.active { max-height: 405px; }
 
@@ -1371,7 +1426,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 300px;
     margin-bottom: 30px;
   }
 
@@ -1859,6 +1914,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin: 0;
   }
 
+  /* .sidebar-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+ */
 
 
   /**
@@ -1866,14 +1928,14 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    position: sticky;
+    /* position: sticky; */
     top: 60px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-  }
+  } 
 
 
   .sidebar-info { flex-direction: column; }
