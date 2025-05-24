@@ -1503,6 +1503,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: calc(100% - 64px);
   }
 
+  @media (max-width: 600px) {
+  .sidebar1 {
+    display: none !important;
+  }
+}
 
 
   /**
