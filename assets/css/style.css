@@ -1972,14 +1972,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .sidebar1 {
     display: none !important;
   }
 }
 
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .sidebar-column {
     width: 100%;
     min-width: 0;
