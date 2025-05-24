@@ -2048,4 +2048,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
+@media (max-width: 1200px) {
+  .sidebar {
+    padding-bottom: 5px !important;   /* 调小底部内边距 */
+    margin-bottom: 0 !important;      /* 如有需要也可调小外边距 */
+  }
+  .sidebar-info_more {
+    padding-bottom: 0 !important;     /* 去掉多余内边距 */
+    margin-bottom: 0 !important;
+  }
+  .social-list {
+    margin-bottom: 0 !important;      /* 保证社交按钮下方无多余间距 */
+    padding-bottom: 0 !important;
+  }
+}
+
 }
