@@ -373,7 +373,7 @@ main {
   overflow-y: auto;
   overflow-x: hidden;
   margin-bottom: 0;
-  padding: 30px 20px 20px 20px;
+  padding: 15px 20px 3px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,6 +383,45 @@ main {
 .sidebar1::-webkit-scrollbar { width: 0; background: transparent; }
 .sidebar1 { scrollbar-width: none; }
 .sidebar1::-webkit-scrollbar-thumb { background: transparent; }
+
+
+.news-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: -20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.news-list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.news-list li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: #fff;
+  /* 去掉 display: flex 和 align-items */
+  font-size: 12px;
+  display: block;
+  /* 可选：让黄色点和文字有间距 */
+}
+
+.news-dot {
+  display: inline-block; /* 关键：让点和文字同行 */
+  color: #ffdb70;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.highlight-yellow {
+  color: #ffdb70;
+  font-weight: 600;
+}
 
 /*-----------------------------------*\
   #SIDEBAR
