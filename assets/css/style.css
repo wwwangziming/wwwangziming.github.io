@@ -326,7 +326,7 @@ main {
 }
 
 
-
+/* 侧边栏容器，保证上下排列且位置固定 */
 .sidebar-column {
   display: flex;
   flex-direction: column;
@@ -337,7 +337,8 @@ main {
   z-index: 10;
 }
 
-
+/* 侧边栏主卡片（名片） */
+/* 如需调整高度，改 height: 这里的值 */
 .sidebar {
   height: 600px;
   margin-bottom: 18px;
@@ -1359,38 +1360,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
-/*-----------------------------------*\
-  #RESPONSIVE
-\*-----------------------------------*/
-
-/**
- * responsive larger than 450px screen
- */
-
-@media (min-width: 450px) {
-
-  /**
-   * client
-   */
-
-  .clients-item { min-width: calc(33.33% - 10px); }
-
-
-
-  /**
-   * #PORTFOLIO, BLOG 
-   */
-
-  .project-img,
-  .blog-banner-box { height: auto; }
-
-}
-
-
-
-
-
 /**
  * responsive larger than 580px screen
  */
@@ -1892,28 +1861,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-@media (max-width: 900px) {
-  main {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 18px;
-  }
-  .sidebar-column {
-    flex-direction: column; /* 这里要用column，保证上下排列 */
-    width: 100%;
-    min-width: 0;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .sidebar, .sidebar1 {
-    width: 100%; /* 小屏下让卡片宽度自适应 */
-    max-width: 100%;
-  }
-  .main-content {
-    width: 100%;
-    min-width: 0;
+@media (max-width: 1050px) {
+  .sidebar1{
+    display: none;
   }
 }
+
 
 /**
  * responsive larger than 1250px screen
@@ -1966,27 +1919,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 25px;
   }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 25px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.sidebar-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 350px; /* 左侧宽度固定 */
-  min-width: 350px;
-}
-
   .main-content {
-  flex: 1 1 0;
-  min-width: 0;
-}
+    min-width: 75%;
+    width: 75%;
+    margin: 0;
+  }
 
   /* .sidebar-stack {
   display: flex;
@@ -2051,10 +1988,7 @@ main {
 
   .social-list { justify-content: center; }
 
-.sidebar, .sidebar1 {
-  width: 350px;
-  max-width: 100%;
-}
+
   /**
 	 * RESUME
 	 */
