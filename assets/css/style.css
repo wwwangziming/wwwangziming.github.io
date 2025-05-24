@@ -2018,9 +2018,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: auto !important;
   }
   .sidebar-info_more {
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: auto !important;
+  pointer-events: auto !important;
+  transition: none !important;
+}
 }
 
 @media (max-width: 1500px) {
