@@ -1,27 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
-  /**
-   * colors
-   */
 
-  /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -331,8 +310,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: sticky; 
-  top: 60px;
+  /* position: sticky; 
+  top: 60px; */
   width: 350px;      
   z-index: 10;
 }
@@ -1992,5 +1971,34 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
 	 * RESUME
 	 */
+
+@media (max-width: 1050px) {
+  .sidebar1 {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 1050px) {
+  .sidebar-column {
+    width: 100%;
+    min-width: 0;
+    align-items: stretch;
+  }
+  .sidebar {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px; /* 控制与主内容的距离，可调整 */
+    position: static;    /* 保证随页面滚动 */
+    top: auto;
+    height: auto;        /* 高度自适应内容 */
+    padding-top: 20px;   /* 可根据需要调整 */
+  }
+  main {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
 
 }
