@@ -2001,4 +2001,28 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
+@media (max-width: 1200px) {
+  .sidebar {
+    max-height: none !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+  .sidebar.active {
+    max-height: none !important;
+  }
+  .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sidebar,
+  .main-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+}
+
 }
