@@ -1972,14 +1972,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .sidebar1 {
     display: none !important;
   }
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .sidebar-column {
     width: 100%;
     min-width: 0;
@@ -2001,7 +2001,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .sidebar {
     max-height: none !important;
     overflow: visible !important;
@@ -2016,13 +2016,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
-@media (max-width: 1200px) {
-  .sidebar,
-  .main-content {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 auto;
-  }
-}
 
 }
