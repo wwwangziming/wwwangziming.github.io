@@ -2016,7 +2016,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
-
+@media (max-width: 600px) {
+  .sidebar1 {
+    display: none !important;
+  }
+}
 
   /**
 	 * RESUME
