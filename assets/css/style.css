@@ -326,19 +326,18 @@ main {
 }
 
 
-/* 侧边栏容器，保证上下排列且位置固定 */
+
 .sidebar-column {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: sticky; 
   top: 60px;
-  width: 350px;      /* 保证宽度和 .sidebar/.sidebar1 一致 */
+  width: 350px;      
   z-index: 10;
 }
 
-/* 侧边栏主卡片（名片） */
-/* 如需调整高度，改 height: 这里的值 */
+
 .sidebar {
   height: 600px;
   margin-bottom: 18px;
@@ -1893,12 +1892,23 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-@media (max-width: 1050px) {
-  .sidebar1{
-    display: none;
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+  }
+  .sidebar-column {
+    flex-direction: row;
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+  }
+  .main-content {
+    width: 100%;
+    min-width: 0;
   }
 }
-
 
 /**
  * responsive larger than 1250px screen
@@ -1951,11 +1961,27 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 25px;
   }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px; /* 左侧宽度固定 */
+  min-width: 350px;
+}
+
   .main-content {
-    min-width: 75%;
-    width: 75%;
-    margin: 0;
-  }
+  flex: 1 1 0;
+  min-width: 0;
+}
 
   /* .sidebar-stack {
   display: flex;
@@ -2020,7 +2046,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .social-list { justify-content: center; }
 
-
+.sidebar, .sidebar1 {
+  width: 350px;
+  max-width: 100%;
+}
   /**
 	 * RESUME
 	 */
