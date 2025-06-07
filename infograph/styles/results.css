@@ -1,0 +1,31 @@
+.results {
+    min-height: 100vh;
+    background-color: #FCF3E7;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 固定三列 */
+    gap: 2rem;
+    margin: 3rem 0;
+  
+    max-width: 1900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}

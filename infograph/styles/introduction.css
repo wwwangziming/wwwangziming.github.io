@@ -1,0 +1,183 @@
+/* Introduction Section Styles */
+.intro-section {
+    min-height: 100vh;
+    background-color: #FCF3E7;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dynamic Title */
+.dynamic-title {
+    position: fixed;
+    top: 0vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    font-weight: 900;
+    /* color: #50A1EF; */
+    color: black;
+    opacity: 0.1;
+    white-space: nowrap;
+    z-index: 10;
+    transition: all 0.1s ease;
+}
+
+.highlight-image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .underline-image {
+    position: absolute;
+    bottom: -0.2em;    /* 控制垂直位置 */
+    left: 0;
+    width: 100%;       /* 让波浪线贴合文字宽度 */
+    height: auto;      /* 保持比例 */
+    pointer-events: none;
+    z-index: -1;       /* 在文字下面 */
+  }
+  
+  
+
+/* Polaroid Gallery */
+:root {
+    --polaroid-scale: 1.25; /* 默认放大 1.15 倍，可随意改 */
+  }
+.polaroid-gallery {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    transform: translateY(-10rem); /* 向上偏移 2rem */
+    gap: 6rem;
+    margin-top: 0rem;
+    padding: 0 2rem;
+}
+
+.polaroid {
+    background: white;
+    padding: 15px 15px 40px 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    transform: scale(var(--polaroid-scale));
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Slight rotation for each polaroid */
+.polaroid:nth-child(1) {
+    transform: scale(var(--polaroid-scale)) rotate(-3deg);
+}
+
+.polaroid:nth-child(2) {
+    transform: scale(var(--polaroid-scale)) rotate(2deg);
+}
+
+.polaroid:nth-child(3) {
+    transform: scale(var(--polaroid-scale)) rotate(-2deg);
+}
+
+/* Hover effects */
+.polaroid:hover {
+    transform: translateY(-10px) rotate(0deg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Content styles */
+.intro-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    margin-top: 6rem;
+}
+
+.intro-section .lead {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #2C3E50;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.infographic-note {
+    position: absolute;
+    font-size: 3rem;
+    max-width: 1600px;
+    margin-top: -4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* font-style: italic; */
+    line-height: 1.1;
+    color: #444;
+  }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .polaroid {
+        width: 250px;
+    }
+}
+
+@media (max-width: 991px) {
+    .polaroid-gallery {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .polaroid {
+        width: calc(50% - 2rem);
+    }
+
+    .dynamic-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-section {
+        padding: 60px 0;
+    }
+
+    .polaroid-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .polaroid {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .intro-section .lead {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .dynamic-title {
+        font-size: 2rem;
+    }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
