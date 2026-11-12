@@ -1,0 +1,135 @@
+# jemdoc: menu{MENU}{research.html}
+= Research
+
+== Interests
+
+*Transportation and Logistics Systems, Marketplace Design*
+
+== Working Papers
+
+- Lee, T., Tsao, M. and Yan, C., [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7604120 Pricing in Dynamic Matching Platforms with Strategic Agents]. \[[https://github.com/tonghun-lee/match-based-pricing Code]\]
+
+- Chen, L. L., Xu, A., Szechtman, R., Yan, C. and Vanterpool, V., [https://arxiv.org/abs/2607.13648 Meeting Uncertain Threats with Feedback], under major revision.
+
+- Gao, S., Cheng, H., Yan, C. and Jiang, G., [https://arxiv.org/abs/2604.21359 A Markovian Traffic Equilibrium Model for Ride-Hailing], under major revision.
+
+- Shen, Y., Chen, J., Yan, J., and Yan, C., [https://arxiv.org/abs/2604.17552 On-Trip Matching and Pricing for Shared Rides], under major revision.
+
+- Cerna, D., Yan, C. and Ma, H., [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5282750 An Equilibrium Solver for A Dynamic Queueing Game], under major revision. \[[https://github.com/denise-cerna/queue-equilibrium-solver/ Code]\]
+  -- ACM Conference on Economics and Computation (EC) 2025
+  -- The Katta G. Murty Prize (awarded to Denise Cerna)
+
+- Chen, J., Yan, C. and Jiang, H., [https://arxiv.org/abs/2506.09924 On the Linear Programming Model for Dynamic Stochastic Matching and Its Application to Pricing], under major revision. \[[https://github.com/chen-jl99/pricing-dynamic-matching Code]\]
+
+- Sun, Y., Liu, Z. and Yan, C., [https://arxiv.org/abs/2503.23139 On-Off Systems with Strategic Customers], under revision.
+
+- Chen, J., Wu, M., Yan, C. and Zhang, Z., [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5202084 Mixed-Type Courier Dispatching and Pricing for Online Food Delivery Platforms], under major revision.
+  -- Finalist, INFORMS TSL Data-Driven Research Challenge, 2025
+
+- Sun, Y., Sun, F., Yan, C. and Wu, J., [https://arxiv.org/abs/2502.12117 The Role of Prescreening in Auctions with Predictions], under revision.
+  -- Conference on Web and Internet Economics (WINE) 2025
+
+- Aouad, A., Sarıtaç, Ö. and Yan, C., [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4453799 Centralized versus Decentralized Pricing Controls for Dynamic Matching Platforms], under major revision. \[[https://github.com/omersaritac/De-Centralized-Pricing Code]\]
+  -- ACM Conference on Economics and Computation (EC) 2023
+
+- Yan, C., Wang, J. and Ghate, A., [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4197493 A Dynamic Model for Airline Fleeting and Scheduling], minor revision, */Operations Research/*.
+
+- Ma, H., Castro, F., Nazerzadeh, H. and Yan, C., [https://arxiv.org/abs/2111.10706 Randomized FIFO Mechanisms], under major revision.
+  -- ACM Conference on Economics and Computation (EC) 2022
+  -- NBER Market Design Working Group 2021
+  -- MSOM Service Management SIG 2021
+  -- EC 2021 Workshop on Design of Online Platforms: Frontiers and Challenges 
+
+
+== Journal Publications
+
+- Yan, C., Castro, F., Frazier, P., Ma, H. and Nazerzadeh, H., [https://pubsonline.informs.org/doi/epdf/10.1287/msom.2024.0774 Matching Queues, Flexibility and Incentives], */Manufacturing & Service Operations Management/*, 28(5): 1665-1683, 2026. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3627920 SSRN]\]\[[https://arxiv.org/abs/2006.08863 arXiv]\]
+  -- EC 2021 Workshop on People-Centric Systems
+
+- Xu, A. and Yan, C., [https://pubsonline.informs.org/doi/10.1287/trsc.2025.0319 Dispatching and Pricing in Two-Sided Spatial Queues], */Transportation Science/*, 60(5): 828-847, 2026. \[[https://arxiv.org/abs/2507.17983 arXiv]\]
+
+- Yan, C., Yan, J. and Shen, Y., [https://pubsonline.informs.org/doi/10.1287/opre.2023.0513 Pricing Shared Rides], */Operations Research/*, 74(4): 1834-1857, 2026. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4551405 SSRN]\]\[[https://github.com/ORJournal/2023.0513 Code&Data]\]\[[https://www.youtube.com/watch?v=PlFUC-8-5D8 My Talk@ITS Davis]\]
+  -- ACM Conference on Economics and Computation (EC) 2024
+  -- MSOM Sustainable Operations SIG 2024
+
+- Shen, Y., Yan, C. and Yan, J., [https://pubsonline.informs.org/doi/10.1287/ited.2025.0163ca Calyber: A Ridesharing Game], */INFORMS Transactions on Education/*, 26(3): 218-225, 2026. \[[https://pubsonline.informs.org/doi/10.1287/ited.2025.0163cs Case]\]
+  -- Runner-up, INFORMS Case Competition, 2025
+
+- Sun, F., Sun, Y., Yan, C. and Jin, L., [https://link.springer.com/article/10.1007/s00182-025-00969-9 Restricting Entries to All-Pay Contests], */International Journal of Game Theory/*, 55: 7, 2026. \[[https://arxiv.org/abs/2205.08104 arXiv]\]
+  -- ACM Conference on Economics and Computation (EC) 2024
+
+- Xu, A., Yan, C., Goh, CY and Jaillet, P., [https://pubsonline.informs.org/doi/full/10.1287/msom.2023.0306?af=R A Locational Demand Model for Bike-Sharing], */Manufacturing & Service Operations Management/*, 27(3): 897-916, 2025. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3311371 SSRN]\] \[[https://github.com/angxu1/bike_sharing Code&Data]\] \[[https://yanchiwei.github.io/hubway2017/index.html Viz]\]
+  -- Finalist, Best Applied Paper, INFORMS Workshop on Data Mining and Decision Analytics, 2023.
+  -- Finalist, POMS-JD.com Best Data-Driven Research Paper Competition, 2019.
+  -- Best Data Exploration Award, Hubway Data Challenge, 2017.
+
+- Yan, C., Johndrow, J., Woodard, D. and Sun, Y., [https://epubs.siam.org/doi/full/10.1137/23M155699X Efficiency of ETA Prediction], */SIAM Journal on Mathematics of Data Science (SIMODS)/*, 6(2): 227-253, 2024. \[[https://arxiv.org/abs/2112.09993 arXiv]\]\[[https://github.com/yanchiwei/eta/blob/main/examples.ipynb Notebook]\]
+
+- Yang, Y., Yan, C., Cao, Y. and Roberti R., [https://www.sciencedirect.com/science/article/abs/pii/S0377221723001649 Planning Robust Drone-Truck Delivery Routes Under Road Traffic Uncertainty], */European Journal of Operational Research/*, 309(3): 1145-1160, 2023.
+
+- Yan, C., Barnhart, C. and Vaze, V., [https://pubsonline.informs.org/doi/abs/10.1287/trsc.2022.1141 Choice-Based Airline Schedule Design and Fleet Assignment: A Decomposition Approach], */Transportation Science/*, 56(6): 1410-1431, 2022. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3513164 SSRN]\]\[[https://github.com/yanchiwei/Choice_FAM_datasets/ Data]\]\[[https://pubsonline.informs.org/doi/suppl/10.1287/trsc.2022.1141/suppl_file/trsc.2022.1141.sm1.pdf Supplement]\]
+  -- Winner, Best Paper Award, INFORMS Aviation Applications Section, 2023
+
+- Castro, F., Nazerzadeh, H. and Yan, C., [https://link.springer.com/article/10.1007/s11134-020-09662-y Matching Queues with Reneging: A Product Form Solution], /*Queueing Systems*/, 96: 359-385, 2020. \[[https://arxiv.org/abs/2005.10728 arXiv]\]
+
+- Yan, C., Zhu, H., Korolko, N. and Woodard, D., [https://onlinelibrary.wiley.com/doi/full/10.1002/nav.21872 Dynamic Pricing and Matching in Ride-Hailing Platforms], */Naval Research Logistics/*, 67(8): 705-724, 2020. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3258234 SSRN]\]
+  -- Winner of the 2021 [https://onlinelibrary.wiley.com/page/journal/15206750/homepage/harold_w_kuhn_award.htm Harold W. Kuhn Award], the best paper published over the past three years in NRL.
+
+- Yan, C., Swaroop, P., Ball, M.O., Barnhart, C. and Vaze, V., [https://www.sciencedirect.com/science/article/pii/S0167637718305194 Majority Judgment over a Convex Candidate Space], */Operations Research Letters/*, 47(4): 317-325, 2019. \[[papers/mj_orl.pdf PDF]\]
+  -- Earlier version of this paper won Honorable Mention in 2012 INFORMS Public Sector Operations Research Best Paper Competition.
+
+- Yan, C., Vaze, V. and Barnhart, C., [https://www.sciencedirect.com/science/article/pii/S0968090X18302195 Airline-Driven Ground Delay Programs: A Benefits Assessment], */Transportation Research Part C: Emerging Technologies/*, 89: 268-288, 2018. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3014176 SSRN]\]
+
+- Yan, C. and Kung, J., [https://pubsonline.informs.org/doi/10.1287/trsc.2015.0657 Robust Aircraft Routing], */Transportation Science/*, 52(1): 118-133, 2018. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2518028 SSRN]\]\[[https://github.com/yanchiwei/RobustAR_datasets Data]\]\[[https://pubsonline.informs.org/doi/suppl/10.1287/trsc.2015.0657/suppl_file/trsc.2015.0657-sm.pdf Supplement]\]
+  -- Outstanding Paper in Air Transportation, INFORMS Transportation Science and Logistics Society, 2018. 
+  -- First Place, AGIFORS Anna Valicek Award for Innovative Research in Airline Operations Research, 2015.
+  -- Best Presentation Award, INFORMS Aviation Applications Section, 2015.
+- Yan, C., Vaze, V., Vanderboll, A. and Barnhart, C., [http://www.sciencedirect.com/science/article/pii/S0965856415002682 Tarmac Delay Policies: A Passenger-Centric Analysis], */Transportation Research Part A: Policy and Practice/*, 83: 42-62, 2016. \[[https://dspace.mit.edu/bitstream/handle/1721.1/100800/ICAT-2016-01.pdf?sequence=1&isAllowed=y PDF]\]
+  -- [http://www.wsj.com/articles/stranded-at-the-airport-1452125387 Stranded at the Airport], The Wall Street Journal, January 6, 2016.
+  -- [http://www.latimes.com/business/la-fi-airline-tarmac-rule-20151231-story.html Airline tarmac rule leads to more passenger delays, study concludes], Los Angeles Times, January 3, 2016.
+  -- [http://www.chicagotribune.com/news/opinion/chapman/ct-flight-delays-tarmac-passengers-perspec-0107-20160107-column.html Why airport torture only got worse], Chicago Tribune, January 7, 2016.
+  -- [http://www.bloomberg.com/politics/articles/2015-12-21/late-flights-rose-after-u-s-bid-to-stem-traveler-tarmac-holdups Late Flights Rose After U.S. Bid to Stem Traveler Tarmac Holdups], Bloomberg Business, December 21, 2015.
+  -- [http://fortune.com/2016/01/06/airline-flight-delays-tarmac/ New Rules to Prevent Airline Delays Are Backfiring], Fortune, January 6, 2016.
+  -- [http://www.usatoday.com/story/travel/flights/todayinthesky/2016/01/05/tarmac-delay-rule/78310176/ Study: Tarmac delay rule just makes things worse], USA Today, January 6, 2016.
+- Yan, C., Jiang, H. and Xie, S., [http://www.sciencedirect.com/science/article/pii/S0191261513002208 Capacity optimization of an isolated intersection under the phase swap sorting strategy], */Transportation Research Part B: Methodological/*, 60: 85-106, 2014. \[[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2261809 SSRN]\]\[[https://www.youtube.com/watch?v=a4RE-iFuhQc Video]\]
+
+== Conference Proceedings
+
+
+- Sun, Y., Sun, F., Yan, C. and Wu, J., [https://link.springer.com/book/10.1007/978-3-032-18660-7 The Role of Prescreening in Auctions with Predictions], 21st International Conference on Web and Internet Economics (WINE 2025), New Brunswick, NJ, 2025.
+
+- Cerna, D., Yan, C. and Ma, H., [https://dl.acm.org/doi/abs/10.1145/3736252.3742608 An Equilibrium Solver for A Dynamic Queueing Game], 26th ACM Conference on Economics and Computation (EC '25), Stanford, CA, 2025.
+
+- Yan, C., Yan, J. and Shen, Y., [https://doi.org/10.1145/3670865.3673446 Pricing Shared Rides], 25th ACM Conference on Economics and Computation (EC '24), New Haven, CT, 2024.
+
+- Sun, F., Sun, Y., Yan, C. and Jin, L., [https://dl.acm.org/doi/10.1145/3670865.3673518 Restricting Entries to All-Pay Contests], 25th ACM Conference on Economics and Computation (EC '24), New Haven, CT, 2024.
+
+- Aouad, A., Sarıtaç, Ö. and Yan, C., [https://dl.acm.org/doi/10.1145/3580507.3597788 Centralized Versus Decentralized Pricing Controls for Dynamic Matching Platforms], 24th ACM Conference on Economics and Computation (EC '23), London, United Kingdom, 2023.
+
+- Castro, F., Ma, H., Nazerzadeh, H. and Yan, C., [https://doi.org/10.1145/3490486.3538353 Randomized FIFO Mechanisms], 23rd ACM Conference on Economics and Computation (EC '22), Boulder, CO, 2022.
+
+- Ball, M.O., Swaroop, P., Barnhart C., Yan, C., Hansen, M., Kang, L., Liu, Y. and Vaze, V., [http://www.atmseminar.org/seminarContent/seminar12/papers/12th_ATM_RD_Seminar_paper_132.pdf Service Level Expectation Setting for Air Traffic
+Flow Management: Practical Challenges and Benefits Assessment], Twelfth USA/Europe Air Traffic Management Research and Development Seminar (ATM2017), Seattle, WA, 2017.
+
+== Technical Reports
+
+- Yan, C. and Yang, L., [http://www.optimization-online.org/DB_HTML/2016/06/5473.html Mixed-integer Programming Based Approaches for the Movement Planner Problem: Model, Heuristics and Decomposition], 2012.
+  -- First Place, 2012 INFORMS Railway Application Section Problem Solving Competition.
+
+== Dissertation
+
+- [https://dspace.mit.edu/handle/1721.1/113435?show=full Airline Scheduling and Air Traffic Control : Incorporating Uncertainty and Passenger and Airline Preferences].
+  -- Honorable Mention (Second Place), Best Dissertation Award, INFORMS Transportation Science and Logistics Society, 2018.
+  -- First Place, Best Dissertation Award, INFORMS Aviation Applications Section, 2018.
+
+== Service
+- Chair, Urban Transportation SIG, INFORMS Transportation Science and Logistics Society, 2023 - 2025.
+- Committee Chair, INFORMS Transportation Science and Logistics Society Best Student Paper Award, 2023.
+- Vice Chair, Urban Transportation SIG, INFORMS Transportation Science and Logistics Society, 2021 - 2023.
+- Secretary/Treasurer, INFORMS Aviation Applications Section, 2020 - 2022.
+- INFORMS Aviation Applications Section, Cluster Chair, 2019.
+- INFORMS Aviation Applications Section, Newsletter Editor, 2017.
+- *Program Committee*: EC (2026), TRISTAN (2022, 2025), MSOM SIG Day (2023, 2024), TSL Conference (2020, 2023, 2026).
+- *Associate Editor*: /Operations Research/ (2024 - ), /Transportation Science/ (2022 - ), /Service Science/ (ad hoc)
+- *Reviewer*: /Operations Research/, /Management Science/, /Manufacturing & Service Operations Management/, /Transportation Science/, /Stochastic Systems/, /INFORMS Journal on Optimization/, /Production and Operations Management/, /Naval Research Logistics/, /Transportation Research Part B: Methodological/, /European Journal of Operational Research/, /Discrete Optimization/, /Service Science/, /EURO Journal on Transportation and Logistics/,  /Transportation Research Part C: Emerging Technologies/, /IEEE Transactions on Intelligent Transportation Systems/, /Transportation Research Part E: Logistics and Transportation Review/, /Computers and Industrial Engineering/, /International Journal of Production Research/, /Journal of Operational Research Society/
+- *Editorial Board*: /Transportation Research Part C: Emerging Technologies/ (2021 - )
